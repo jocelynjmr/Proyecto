@@ -1,0 +1,67 @@
+//variables 
+         var nom ;
+         let fechaDeNacimiento ,color,bebidaFavorita,deporteFavorito;
+         
+         let creditos = 0;
+
+         //Impresienes en pantalla 
+         alert ("Bienvenido !!! \n a mi test ...");
+
+         do {
+         nom = prompt ("Cual es mi nombre ");
+         if (nom = "Jocelyn") 
+         {
+            alert("Acertaste!!!");  
+            console.log("Acertaste!!!");
+            creditos + 1;   
+         } } while (nom ==" ");
+
+
+         //
+        do {
+         fechaDeNacimiento = prompt("Escribe mi fecha de nacimiento");
+        if (fechaDeNacimiento == "14 de julio 2003")
+        {
+           alert ("naci el : "+fechaDeNacimiento+"asi que tengo 18 años" ); 
+           creditos + 1;   
+        }
+        } while (fechaDeNacimiento = "");
+        
+
+        //
+        do {
+        color = prompt ("Escribe mi color favorito :");
+        if (color == "azul")
+        {
+            alert("Acertaste!!!");
+            creditos + 1;
+        } 
+        } while (color == " ");
+
+        //
+        do {
+        bebidaFavorita = prompt ("Escribe mi bebida favorita :");
+        if (bebidaFavorita == "jugo de naranja")
+        {
+            alert("Acertaste!!!");
+            creditos + 1;
+        } 
+        } while (bebidaFavorita == " ");
+
+        //
+        do {
+        deporteFavorito = prompt ("Escribe mi deporte favorito :");
+        if (deporteFavorito == "natacion")
+        {
+            alert("Acertaste!!!");
+            creditos + 1;
+        } 
+        } while (deporteFavorito == " ");
+
+        if (creditos == 5)
+        {
+            alert("Eres un buen amigo !!1");
+        }else
+        {
+            alert("Eres un mal amigo !!1");
+        }
